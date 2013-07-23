@@ -1,1 +1,4 @@
-/app/assets/templates/pictures/show.hamlc
+%h1
+  {{picture.title}}
+  %a.edit-btn.btn.pull-right{:ng-href => "/pictures/{{id}}/edit"} Edit
+%img{:src => "{{picture.url}}"}
