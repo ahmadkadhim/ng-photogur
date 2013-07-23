@@ -12,8 +12,11 @@
 
 //= require jquery
 //= require jquery_ujs
+
 //= require angular.min
 //= require angle-up
 //= require ./angular/initialize
 //= require_tree ./angular
 //= require_tree ../templates
+//= require angular-resource.min
+//= require hamlcoffee

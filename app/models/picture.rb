@@ -5,4 +5,7 @@ class Picture < ActiveRecord::Base
 
   scope :newest_first,     order("created_at DESC")
   scope :not_copyrighted,  where(:copyrighted => false)
+
+  
+
 end
