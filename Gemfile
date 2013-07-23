@@ -20,6 +20,9 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+
+  gem 'haml_coffee_assets'
+  gem 'execjs'
 end
 
 gem 'jquery-rails'
@@ -31,8 +34,6 @@ gem 'guard-test'
 
 gem "angular-rails"
 
-gem 'haml_coffee_assets'
-gem 'execjs'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
